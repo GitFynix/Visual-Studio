@@ -1,0 +1,5 @@
+services:
+  backend:
+    build: ./djangoprojects
+    ports:
+      - "8000:8000"
